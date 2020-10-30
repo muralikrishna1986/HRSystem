@@ -5,13 +5,14 @@ public class FirstClass {
         System.out.println("Testing first code in intellij");
         System.out.println("it is working");
         TestMethod(10,20);
+        System.out.println("Committing from intellij");
     }
 
     /**
      * @param a first value
      * @param b second value
      */
-    public static void TestMethod(int a,int b){
+    public static void TestMethod(int a, int b){
         int c=a+b;
         System.out.println("Value a+b is "+c);
     }
